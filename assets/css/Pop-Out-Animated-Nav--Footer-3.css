@@ -1,0 +1,28 @@
+#sidebar-nav {
+  position: fixed;
+  background: rgb(8,65,39);
+  height: auto;
+  right: -32vh;
+  width: 31vh;
+  transition: all 350ms linear;
+  z-index: 100000;
+  top: 10px;
+}
+
+@media (max-width:767px) {
+  #sidebar-nav {
+    position: fixed;
+    background: rgb(8,65,39);
+    height: auto;
+    right: -32vh;
+    width: 29vh;
+    transition: all 350ms linear;
+    z-index: 100000;
+    top: 10px;
+  }
+}
+
+.active {
+  right: 0 !important;
+}
+
